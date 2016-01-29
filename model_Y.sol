@@ -1,4 +1,4 @@
-gjh: "model_Y.gjh" written.  Execute
+gjh: "model_Y.gjh" written.  Execute
  
 	include "model_Y.gjh"
 	remove "model_Y.gjh";

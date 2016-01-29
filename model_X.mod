@@ -10,8 +10,16 @@ option presolve 0;
 option substout 0;
 option auxfiles 'rc';
 option solver 'gjh';
+option gjh_options 'sparse';
 
 write gmodel_X;
 
 solve;
+
+include "model_X.gjh"
+remove "model_X.gjh";
+
+display SH;
+
+
 
