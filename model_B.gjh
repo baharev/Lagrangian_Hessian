@@ -1,0 +1,17 @@
+delete g, H, HS, SH, J, JS, SJ;
+param g{1..2} default 0;
+param J{1..1, 1..2} default 0;
+param H{1..2, 1..2} default 0;
+data;
+param g :=
+	1	1
+	2	1
+;
+param J :=
+[1,*]
+	1	0
+;
+param H :=
+[1,*]
+	1	0
+;
